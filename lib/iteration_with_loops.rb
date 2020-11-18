@@ -11,7 +11,6 @@ def find_min_in_nested_arrays(src)
       puts "index value #{src[row_index][element_index]}" 
       if min_value < src[row_index][element_index]
         min_value = src[row_index][element_index]
-        puts min_value
       end
       element_index += 1 
     end
